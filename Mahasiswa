@@ -1,0 +1,30 @@
+paket  sesi9 ;
+public  class  Mahasiswa < T1 , T2 , T3 > {
+     T1  nim pribadi ;
+     nama T2  pribadi ;
+     kelas T3  pribadi ;
+    
+    public  void  setNim ( T1  nim ) {
+        ini . nim = nim ;
+    }
+    
+    public  void  setName ( nama T2  ) {
+        ini . nama = nama ;
+    }
+    
+    public  void  setClass ( kelas T3  ) {
+        ini . kelas = kelas ;
+    }
+    
+    publik  T1  getNim () {
+        mengembalikan  ini . nim ;
+    }
+    
+     getName T2  publik () {
+        mengembalikan  ini . nama ;
+    }
+    
+     getClass T3  publik () {
+        mengembalikan  ini . kelas ;
+    }
+}
