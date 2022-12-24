@@ -1,0 +1,33 @@
+paket  sesi9 ;
+impor  jawa . menggunakan . ArrayList ;
+impor  jawa . menggunakan . ArrayDeque ;
+
+ kelas  publik Utama {
+  public  static  void  main ( String [] args ) {
+    // Membuat objek ArrayList untuk menyimpan data string
+    ArrayList < String > arrayList = new  ArrayList <>();
+
+    // Menambahkan beberapa elemen ke ArrayList
+    daftar larik . tambahkan ( "Halo" );
+    daftar larik . tambahkan ( "Dunia" );
+    daftar larik . tambahkan ( "!" );
+
+    // Menampilkan elemen ArrayList menggunakan loop for
+    untuk ( String  str : arrayList ) {
+      Sistem . keluar . println ( str );
+    }
+
+    // Membuat objek ArrayDeque untuk menyimpan data integer
+    ArrayDeque < Bilangan Bulat > arrayDeque = new  ArrayDeque <>();
+
+    // Menambahkan beberapa elemen ke ArrayDeque
+    arrayDeque . tambahkan ( 1 );
+    arrayDeque . tambahkan ( 2 );
+    arrayDeque . tambahkan ( 3 );
+
+    // Menampilkan elemen ArrayDeque menggunakan iterator
+    for ( int  num : arrayDeque ) {
+      Sistem . keluar . println ( bil );
+    }
+  }
+}
